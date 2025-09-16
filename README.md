@@ -28,25 +28,11 @@ A comprehensive Arduino library for creating WebSocket-based web applications on
 - **Automatic Home Page Integration**: Added web app is automatically displayed link on the home page
 - **Platform Extensible**: Currently implemented for Arduino Uno R4 WiFi, but can be extended for other hardware platforms. See [DIYables_WebApps_ESP32](https://esp32io.com/tutorials/esp32-diyables-web-apps)
 
-## 📦 Installation - Arduino IDE Library Manager
-* Open Arduino IDE
-* Navigate to the <span class="highlight-text-1">Libraries</span> icon on the left bar of the Arduino IDE.
-* Search <span class="quote">"DIYables WebApps"</span>, then find the DIYables WebApps library by DIYables
-* Click <span class="highlight-text-1">Install</span> button to install the library.
-![Arduino UNO R4 DIYables WebApps library](https://newbiely.com/images/tutorial/arduino-uno-r4-DIYables-WebApps-library.jpg)
-* You will be asked for installing some other library dependencies
-* Click <span class="highlight-text-1">Install All</span> button to install all library dependencies.
-![Arduino UNO R4 DIYables WebApps dependency](https://newbiely.com/images/tutorial/arduino-uno-r4-DIYables-WebApps-dependency-library.jpg)
-
-
-## 🔧 Dependencies
-This library requires the following:
-- **UnoR4WiFi_WebServer** library (for WebSocket support)
-
 
 ## 🎯 Quick Start
 
 For detailed setup instructions and code examples, please refer to:
+- **[DIYables WebApps Library](https://newbiely.com/tutorials/arduino-uno-r4/diyables-web-apps)** - The library home page
 - **[API Reference Documentation](https://newbiely.com/tutorials/arduino-uno-r4/diyables-web-apps-library-reference)** - Complete API documentation
 - **Example Tutorials** - Comprehensive guides for each web application:
   - **[Web Chat Example](https://newbiely.com/tutorials/arduino-uno-r4/diyables-web-apps-chat)** - Interactive chat interface with Arduino

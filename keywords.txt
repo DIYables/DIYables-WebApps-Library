@@ -1,0 +1,184 @@
+#######################################
+# DIYables WebApps Library Keywords
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DIYablesWebAppServer	KEYWORD1
+DIYablesWebAppPageBase	KEYWORD1
+DIYablesHomePage	KEYWORD1
+DIYablesNotFoundPage	KEYWORD1
+DIYablesWebChatPage	KEYWORD1
+DIYablesWebMonitorPage	KEYWORD1
+DIYablesWebSliderPage	KEYWORD1
+DIYablesWebJoystickPage	KEYWORD1
+DIYablesWebRotatorPage	KEYWORD1
+DIYablesWebDigitalPinsPage	KEYWORD1
+DIYablesWebTemperaturePage	KEYWORD1
+DIYablesWebAnalogGaugePage	KEYWORD1
+DIYablesWebPlotterPage	KEYWORD1
+DIYablesWebRTCPage	KEYWORD1
+DIYablesWebTablePage	KEYWORD1
+
+# Interface Classes
+INetworkProvider	KEYWORD1
+IWebServer	KEYWORD1
+IWebSocketServer	KEYWORD1
+IWebClient	KEYWORD1
+IWebSocket	KEYWORD1
+IServerFactory	KEYWORD1
+
+# Platform-specific Classes
+UnoR4ServerFactory	KEYWORD1
+UnoR4NetworkProvider	KEYWORD1
+UnoR4WebServer	KEYWORD1
+UnoR4WebSocket	KEYWORD1
+UnoR4WebClient	KEYWORD1
+UnoR4WebSocketServer	KEYWORD1
+
+# WebSocket Client Manager
+WebSocketClientManager	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# Server Methods
+begin	KEYWORD2
+loop	KEYWORD2
+addApp	KEYWORD2
+removeApp	KEYWORD2
+getApp	KEYWORD2
+getAppCount	KEYWORD2
+getAppByIndex	KEYWORD2
+setNotFoundPage	KEYWORD2
+addWebSocketClient	KEYWORD2
+removeWebSocketClient	KEYWORD2
+broadcastMessage	KEYWORD2
+handleClient	KEYWORD2
+getLocalIP	KEYWORD2
+isConnected	KEYWORD2
+printConnectionInfo	KEYWORD2
+getConnectedClientCount	KEYWORD2
+getPlatformName	KEYWORD2
+
+# Page Base Methods
+handleHTTPRequest	KEYWORD2
+handleWebSocketMessage	KEYWORD2
+onWebSocketConnection	KEYWORD2
+onWebSocketClose	KEYWORD2
+getPageInfo	KEYWORD2
+getNavigationInfo	KEYWORD2
+getPagePath	KEYWORD2
+isEnabled	KEYWORD2
+setEnabled	KEYWORD2
+sendHTTPHeader	KEYWORD2
+sendWebSocketMessage	KEYWORD2
+broadcastToAllClients	KEYWORD2
+sendLargeHTML	KEYWORD2
+
+# Chat Page Methods
+onChatMessage	KEYWORD2
+sendToChat	KEYWORD2
+
+# Monitor Page Methods
+onWebMonitorMessage	KEYWORD2
+sendToWebMonitor	KEYWORD2
+
+# Slider Page Methods
+onSliderValueFromWeb	KEYWORD2
+onSliderValueToWeb	KEYWORD2
+sendToWebSlider	KEYWORD2
+
+# Joystick Page Methods
+onJoystickValueFromWeb	KEYWORD2
+onJoystickValueToWeb	KEYWORD2
+sendToWebJoystick	KEYWORD2
+setAutoReturn	KEYWORD2
+getAutoReturn	KEYWORD2
+setSensitivity	KEYWORD2
+getSensitivity	KEYWORD2
+
+# Rotator Page Methods
+onRotatorAngleFromWeb	KEYWORD2
+sendToWebRotator	KEYWORD2
+setRotatorMode	KEYWORD2
+getRotatorMode	KEYWORD2
+getMinAngle	KEYWORD2
+getMaxAngle	KEYWORD2
+
+# Digital Pins Page Methods
+enablePin	KEYWORD2
+disablePin	KEYWORD2
+enableAllPins	KEYWORD2
+disableAllPins	KEYWORD2
+isPinEnabled	KEYWORD2
+getPinMode	KEYWORD2
+setPinMode	KEYWORD2
+getEnabledPinCount	KEYWORD2
+onPinWrite	KEYWORD2
+onPinRead	KEYWORD2
+onPinModeChange	KEYWORD2
+sendToWebDigitalPins	KEYWORD2
+updatePinState	KEYWORD2
+
+# Temperature Page Methods
+sendTemperature	KEYWORD2
+onTemperatureValueRequested	KEYWORD2
+
+# Analog Gauge Page Methods
+sendGaugeValue	KEYWORD2
+setGaugeRange	KEYWORD2
+setGaugeUnit	KEYWORD2
+setGaugeLabel	KEYWORD2
+
+# Plotter Page Methods
+sendPlotData	KEYWORD2
+clearPlotData	KEYWORD2
+setPlotTitle	KEYWORD2
+setPlotYLabel	KEYWORD2
+
+# RTC Page Methods
+onTimeUpdateFromWeb	KEYWORD2
+sendTimeToWeb	KEYWORD2
+setTimeFormat	KEYWORD2
+
+# Table Page Methods
+addRow	KEYWORD2
+sendValueUpdate	KEYWORD2
+onTableValueRequest	KEYWORD2
+clearTable	KEYWORD2
+
+# WebSocket Interface Methods
+isConnected	KEYWORD2
+close	KEYWORD2
+send	KEYWORD2
+sendText	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# Rotator Modes
+ROTATOR_MODE_CONTINUOUS	LITERAL1
+ROTATOR_MODE_LIMITED	LITERAL1
+
+# Pin Modes for Digital Pins Page
+WEB_PIN_OUTPUT	LITERAL1
+WEB_PIN_INPUT	LITERAL1
+
+# WebSocket Data Types
+TEXT	LITERAL1
+BINARY	LITERAL1
+
+# WebSocket Close Codes
+NORMAL_CLOSURE	LITERAL1
+GOING_AWAY	LITERAL1
+PROTOCOL_ERROR	LITERAL1
+UNSUPPORTED_DATA	LITERAL1
+INVALID_FRAME_PAYLOAD_DATA	LITERAL1
+POLICY_VIOLATION	LITERAL1
+MESSAGE_TOO_BIG	LITERAL1
+INTERNAL_ERROR	LITERAL1

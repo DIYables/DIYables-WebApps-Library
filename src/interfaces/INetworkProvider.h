@@ -23,7 +23,7 @@ public:
     virtual ~INetworkProvider() = default;
     
     // Connection management
-    virtual bool begin() { return false; }  // For Ethernet or pre-configured connections - override if needed
+    virtual bool begin() { return true; }  // For Ethernet or pre-configured connections - override if needed
     virtual bool begin(const char* ssid, const char* password) = 0;
     virtual void end() = 0;
     virtual bool reconnect() = 0;
@@ -47,3 +47,4 @@ public:
 };
 
 #endif
+
